@@ -1,5 +1,7 @@
 import unittest
 import reader, kb, core
+import spacy
+nlp = spacy.load('en')
 
 class UnitTests(unittest.TestCase):
 
